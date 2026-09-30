@@ -30,7 +30,7 @@ REQUIRED_FIELDS = {
     "main_repo": str,
     "fuzzing_engines": list,
     "sanitizers": list,
-    "maintainers": list,
+    #"maintainers": list,
 }
 NAME_PATTERN = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 REQUIRED_SIBLING_FILES = ["Dockerfile", "build.sh"]
